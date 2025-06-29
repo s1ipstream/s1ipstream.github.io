@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Stream</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: 3em auto;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+      padding: 1em;
+    }
+    a { color: #0077cc; }
+  </style>
+</head>
+<body>
+  <h1>Daily Stream</h1>
+  <div id="entry">
+    <!-- Paste your latest entry HTML here -->
+  </div>
+  <footer>
+    <p><a href="/archive.html">See archive →</a></p>
+  </footer>
+</body>
+</html>
