@@ -1,28 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Daily Stream</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 700px;
-      margin: 3em auto;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-      padding: 1em;
-    }
-    a { color: #0077cc; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slipstream</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            color: #666;
+            font-weight: 300;
+        }
+        
+        .entry {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .entry:last-child {
+            border-bottom: none;
+        }
+        
+        .entry-date {
+            font-size: 0.9em;
+            color: #999;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        
+        .entry-content p {
+            margin-bottom: 1.2em;
+        }
+        
+        .entry-content p:last-child {
+            margin-bottom: 0;
+        }
+        
+        a {
+            color: #333;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+        }
+        
+        a:hover {
+            text-decoration-thickness: 2px;
+        }
+        
+        em {
+            font-style: italic;
+            font-weight: 400;
+        }
+        
+        strong {
+            font-weight: 500;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            header {
+                margin-bottom: 40px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Daily Stream</h1>
-  <div id="entry">
-    <!-- Paste your latest entry HTML here -->
-  </div>
-  <footer>
-    <p><a href="/archive.html">See archive →</a></p>
-  </footer>
+    <header>
+        <h1>Slipstream</h1>
+        <p class="subtitle">Real-time consciousness navigation</p>
+    </header>
+    
+    <main>
+        <!-- Your journal entries go here -->
+        
+        <article class="entry">
+            <div class="entry-date">December 15, 2024</div>
+            <div class="entry-content">
+                <p><strong>Example entry:</strong> This is where your journal content will go. Just copy your text from Obsidian and paste it between the paragraph tags. The styling will handle the rest.</p>
+                
+                <p>Each entry gets wrapped in an <code>&lt;article class="entry"&gt;</code> tag, with the date and content structured like this example.</p>
+                
+                <p>To add a new entry, just copy this whole article block, change the date, and replace the content with your writing. The newest entries go at the top.</p>
+            </div>
+        </article>
+        
+        <!-- Add new entries above this comment -->
+        
+    </main>
 </body>
 </html>
