@@ -1,1 +1,349 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOS Framework Wiki</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .nav-back {
+            background: #34495e;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .nav-back a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .nav-back a:hover {
+            color: #3498db;
+        }
+        
+        .intro-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .intro-section h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .intro-section p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .quote-highlight {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+        
+        .sections-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .section-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .section-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .section-card p {
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        
+        .section-card .card-links {
+            border-top: 1px solid #ecf0f1;
+            padding-top: 1rem;
+        }
+        
+        .section-card .card-links a {
+            color: #3498db;
+            text-decoration: none;
+            display: block;
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+        
+        .section-card .card-links a:hover {
+            color: #2980b9;
+        }
+        
+        .core-principles {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .core-principles h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .principles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .principle-item {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .principle-item h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .principle-item p {
+            color: #555;
+            font-size: 0.9rem;
+        }
+        
+        .getting-started {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .getting-started h2 {
+            margin-bottom: 1rem;
+        }
+        
+        .getting-started p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .cta-button {
+            background: white;
+            color: #3498db;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: #f8f9fa;
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .sections-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dimensional Orientation System</h1>
+            <p>A Framework for Conscious Reality Navigation</p>
+        </div>
+    </header>
+    
+    <div class="nav-back">
+        <div class="container">
+            <a href="../index.html">← Back to Journal</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="intro-section">
+            <h2>Welcome to the DOS Framework Wiki</h2>
+            <p>The Dimensional Orientation System (DOS) is a comprehensive framework for understanding how consciousness navigates reality through pattern recognition and boundary dynamics.</p>
+            
+            <div class="quote-highlight">
+                "Reality is a dynamic pattern field, and consciousness is the navigation system that lets us move through it coherently."
+            </div>
+            
+            <p>This wiki contains the core concepts, practical applications, and interconnected insights that make up the framework. Each page links to related ideas, creating a web of understanding that mirrors how the framework actually works.</p>
+        </div>
+        
+        <div class="sections-grid">
+            <div class="section-card">
+                <h3>Core Concepts</h3>
+                <p>The fundamental building blocks of the DOS framework. These are the essential ideas that everything else builds upon.</p>
+                <div class="card-links">
+                    <a href="concepts/merge-separate.html">Merge/Separate Binary</a>
+                    <a href="concepts/pattern-recognition.html">Pattern Recognition</a>
+                    <a href="concepts/field-coherence.html">Field Coherence</a>
+                    <a href="concepts/identity-equation.html">I=C/M Equation</a>
+                    <a href="concepts/sensory-intelligence.html">Sensory Intelligence</a>
+                    <a href="concepts/boundary-architecture.html">Boundary Architecture</a>
+                    <a href="concepts/dimensional-translation.html">Dimensional Translation</a>
+                </div>
+            </div>
+            
+            <div class="section-card">
+                <h3>Pattern Library</h3>
+                <p>Recurring patterns that appear across different scales and contexts. These are the "verbs" of reality's operations.</p>
+                <div class="card-links">
+                    <a href="patterns/tension-release-distribution.html">Tension-Release-Distribution</a>
+                    <a href="patterns/timing-misalignment.html">Timing Misalignment</a>
+                    <a href="patterns/recursive-collapse.html">Recursive Collapse</a>
+                    <a href="patterns/phase-sensitive-intervention.html">Phase-Sensitive Intervention</a>
+                    <a href="patterns/mirror-feedback.html">Mirror Feedback</a>
+                    <a href="patterns/torus-flow.html">Torus Flow</a>
+                </div>
+            </div>
+            
+            <div class="section-card">
+                <h3>Articles</h3>
+                <p>Longer-form explorations that synthesize multiple concepts into practical applications and deeper insights.</p>
+                <div class="card-links">
+                    <a href="articles/bunny-os.html">Bunny OS: Neurodivergent Framework Navigation</a>
+                    <a href="articles/macrosoma-integration.html">Macrosoma Life Integration</a>
+                    <a href="articles/consciousness-engineering.html">From Self-Help to Consciousness Engineering</a>
+                    <a href="articles/organizational-design.html">Pattern-Based Organizational Design</a>
+                    <a href="articles/education-reform.html">Education as Pattern Literacy</a>
+                </div>
+            </div>
+            
+            <div class="section-card">
+                <h3>Tools & Applications</h3>
+                <p>Practical methods and diagnostic tools for applying the framework to real-world situations.</p>
+                <div class="card-links">
+                    <a href="tools/coherence-scan.html">Coherence Scan Protocol</a>
+                    <a href="tools/merge-separate-assessment.html">Merge/Separate Assessment</a>
+                    <a href="tools/pattern-recognition-training.html">Pattern Recognition Training</a>
+                    <a href="tools/field-hygiene.html">Field Hygiene Practices</a>
+                    <a href="tools/boundary-calibration.html">Boundary Calibration</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="core-principles">
+            <h2>Core Principles</h2>
+            <div class="principles-grid">
+                <div class="principle-item">
+                    <h4>Reality as Pattern Field</h4>
+                    <p>Everything exists as dynamic patterns within an informational field that continuously organizes and reorganizes itself.</p>
+                </div>
+                <div class="principle-item">
+                    <h4>Consciousness as Navigation</h4>
+                    <p>Awareness functions as a sophisticated pattern navigation system that helps us move through reality coherently.</p>
+                </div>
+                <div class="principle-item">
+                    <h4>Merge/Separate Binary</h4>
+                    <p>All decisions and distinctions reduce to a fundamental choice between connection and separation.</p>
+                </div>
+                <div class="principle-item">
+                    <h4>Scale Invariance</h4>
+                    <p>The same patterns operate coherently from quantum to cosmic scales, from individual to collective.</p>
+                </div>
+                <div class="principle-item">
+                    <h4>Sensory Intelligence</h4>
+                    <p>The body is our primary interface for detecting and navigating pattern dynamics in real-time.</p>
+                </div>
+                <div class="principle-item">
+                    <h4>Field Coherence</h4>
+                    <p>Health and effectiveness emerge from alignment between internal patterns and external field dynamics.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="getting-started">
+            <h2>Ready to Explore?</h2>
+            <p>Start with the core concepts to build your foundation, then explore the patterns and applications that resonate with your interests.</p>
+            <a href="concepts/merge-separate.html" class="cta-button">Start with Merge/Separate</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DOS Framework Wiki | <a href="../index.html" style="color: #3498db;">Return to Journal</a></p>
+        </div>
+    </footer>
+</body>
+</html>
