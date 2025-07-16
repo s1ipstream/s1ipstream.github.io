@@ -3,45 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOS | Temporal Navigation Toolkit</title>
+    <title>DOS Debugging Manual</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
             background: #f8f9fa;
         }
-
+        
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-
+        
         header {
             background: #2c3e50;
             color: white;
             padding: 2rem 0;
-            text-align: center;
             margin-bottom: 2rem;
+            text-align: center;
         }
-
+        
         header h1 {
             font-size: 2.5rem;
+            margin-bottom: 0.5rem;
             font-weight: 400;
         }
-
+        
         header p {
             font-size: 1.2rem;
             opacity: 0.9;
+            margin-bottom: 0.5rem;
         }
-
+        
+        .version-info {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            font-style: italic;
+        }
+        
+        .nav-back {
+            background: #34495e;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .nav-back a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .nav-back a:hover {
+            color: #3498db;
+        }
+        
         .intro-section {
             background: white;
             padding: 2rem;
@@ -49,25 +73,45 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             margin-bottom: 2rem;
         }
-
+        
         .intro-section h2 {
             color: #2c3e50;
-            font-size: 1.8rem;
             margin-bottom: 1rem;
+            font-size: 1.8rem;
         }
-
+        
         .intro-section p {
             font-size: 1.1rem;
             margin-bottom: 1rem;
         }
-
+        
+        .debug-highlight {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 4px solid #f39c12;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        
+        .debug-highlight h3 {
+            color: #d68910;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .debug-highlight p {
+            color: #856404;
+            margin-bottom: 0.5rem;
+        }
+        
         .sections-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
-
+        
         .section-card {
             background: white;
             padding: 2rem;
@@ -76,37 +120,132 @@
             transition: transform 0.3s ease;
             border-top: 4px solid #3498db;
         }
-
+        
         .section-card:hover {
             transform: translateY(-3px);
         }
-
+        
+        .section-card.architecture {
+            border-top-color: #e74c3c;
+        }
+        
+        .section-card.protocols {
+            border-top-color: #f39c12;
+        }
+        
+        .section-card.tools {
+            border-top-color: #27ae60;
+        }
+        
+        .section-card.maintenance {
+            border-top-color: #9b59b6;
+        }
+        
+        .section-card.limitations {
+            border-top-color: #95a5a6;
+        }
+        
         .section-card h3 {
             color: #2c3e50;
-            font-size: 1.4rem;
             margin-bottom: 1rem;
+            font-size: 1.4rem;
         }
-
+        
         .section-card p {
+            margin-bottom: 1.5rem;
             color: #555;
+        }
+        
+        .section-card .card-links {
+            border-top: 1px solid #ecf0f1;
+            padding-top: 1rem;
+        }
+        
+        .section-card .card-links a {
+            color: #3498db;
+            text-decoration: none;
+            display: block;
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+        
+        .section-card .card-links a:hover {
+            color: #2980b9;
+        }
+        
+        .quick-start {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .quick-start h2 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        .quick-start p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .quick-start-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
             margin-bottom: 1.5rem;
         }
-
+        
+        .quick-start-step {
+            background: rgba(255,255,255,0.1);
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+        }
+        
+        .quick-start-step h4 {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        .quick-start-step p {
+            font-size: 0.8rem;
+            margin: 0;
+        }
+        
         .cta-button {
-            display: inline-block;
-            background: #e74c3c;
-            color: white;
+            background: white;
+            color: #e74c3c;
             padding: 1rem 2rem;
             border-radius: 25px;
             text-decoration: none;
             font-weight: bold;
-            transition: transform 0.3s ease;
+            display: inline-block;
+            transition: all 0.3s ease;
         }
-
+        
         .cta-button:hover {
+            background: #f8f9fa;
             transform: translateY(-2px);
         }
-
+        
+        .disclaimer {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        
+        .disclaimer h3 {
+            color: #495057;
+            margin-bottom: 1rem;
+        }
+        
         footer {
             background: #2c3e50;
             color: white;
@@ -114,12 +253,17 @@
             text-align: center;
             margin-top: 3rem;
         }
-
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2rem;
             }
+            
             .sections-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .quick-start-steps {
                 grid-template-columns: 1fr;
             }
         }
@@ -128,48 +272,136 @@
 <body>
     <header>
         <div class="container">
-            <h1>Life is Temporal Navigation</h1>
-            <p>Practical skills for answering life's crucial "When?" questions.</p>
+            <h1>DOS Debugging Manual</h1>
+            <p>Consciousness Navigation Toolkit</p>
+            <div class="version-info">Living system maintenance • Not a final solution</div>
         </div>
     </header>
-
+    
+    <div class="nav-back">
+        <div class="container">
+            <a href="../index.html">← Back to Journal</a>
+        </div>
+    </div>
+    
     <div class="container">
         <div class="intro-section">
-            <h2>Ever notice how timing shapes your life?</h2>
-            <p>"When is the right time?" You've asked it countless times. Timing affects every relationship, decision, and opportunity. DOS gives you tools to navigate the fundamental tension between past experiences and future possibilities.</p>
-            <p><strong>This isn't about fixing your life—it's about understanding and navigating the timing of your life.</strong></p>
+            <h2>When Consciousness Gets Stuck</h2>
+            <p>Sometimes your mind loops. Sometimes decisions feel impossible. Sometimes you're overwhelmed by patterns you can sense but can't navigate. Sometimes you're out of sync with everyone around you.</p>
+            
+            <p>This is a debugging manual for those moments.</p>
+            
+            <div class="debug-highlight">
+                <h3>🔧 What This Is</h3>
+                <p><strong>A practical toolkit</strong> for debugging consciousness when it gets stuck, overwhelmed, or out of sync.</p>
+                <p><strong>Ongoing system maintenance</strong> rather than a final solution to existence.</p>
+                <p><strong>Experimental tools</strong> that help you get unstuck and back in flow.</p>
+            </div>
+            
+            <p>The Dimensional Orientation System (DOS) emerged from debugging specific problems: pattern overwhelm, decision paralysis, timing misalignment, and boundary confusion. These tools help you recognize what's happening and what to do about it.</p>
         </div>
-
+        
         <div class="sections-grid">
-            <div class="section-card">
-                <h3>Understand Your Timing</h3>
-                <p>Discover how your consciousness navigates between past and future.</p>
-                <a href="#" class="cta-button">Explore Temporal Coordination</a>
+            <div class="section-card architecture">
+                <h3>Core Architecture</h3>
+                <p>Understanding the basic operations that consciousness uses to navigate reality. These are the fundamental processes that everything else builds on.</p>
+                <div class="card-links">
+                    <a href="architecture/merge-separate.html">Merge/Separate Binary</a>
+                    <a href="architecture/debug-cycles.html">1:2:3 Debug Cycles</a>
+                    <a href="architecture/temporal-coordination.html">Temporal Coordination</a>
+                    <a href="architecture/identity-equation.html">I=C/M Identity Debugging</a>
+                    <a href="architecture/pattern-field.html">Pattern Field Basics</a>
+                </div>
             </div>
-
-            <div class="section-card">
-                <h3>Practical Protocols</h3>
-                <p>Tools to improve your timing decisions and resolve recurring loops.</p>
-                <a href="#" class="cta-button">View Timing Protocols</a>
+            
+            <div class="section-card protocols">
+                <h3>Debugging Protocols</h3>
+                <p>What to do when specific problems arise. These are the troubleshooting steps for common consciousness navigation issues.</p>
+                <div class="card-links">
+                    <a href="protocols/rhythm-diagnosis.html">Rhythm Diagnosis</a>
+                    <a href="protocols/pattern-interruption.html">Pattern Interruption Techniques</a>
+                    <a href="protocols/sync-detection.html">Sync Detection</a>
+                    <a href="protocols/error-interpretation.html">Error Interpretation</a>
+                    <a href="protocols/recursive-loop-breaking.html">Breaking Recursive Loops</a>
+                    <a href="protocols/overwhelm-debugging.html">Overwhelm Debugging</a>
+                </div>
             </div>
-
-            <div class="section-card">
-                <h3>Everyday Navigation</h3>
-                <p>Skills to manage timing issues before they become problems.</p>
-                <a href="#" class="cta-button">Develop Navigation Skills</a>
+            
+            <div class="section-card tools">
+                <h3>Navigation Tools</h3>
+                <p>Daily-use skills for maintaining flow and preventing common issues. These are the preventive maintenance tools.</p>
+                <div class="card-links">
+                    <a href="tools/timing-skills.html">Practical Timing Skills</a>
+                    <a href="tools/boundary-decisions.html">Boundary Decision-Making</a>
+                    <a href="tools/field-sensing.html">Field Sensing Techniques</a>
+                    <a href="tools/phase-intervention.html">Phase-Sensitive Intervention</a>
+                    <a href="tools/coherence-scan.html">Coherence Scanning</a>
+                    <a href="tools/pattern-recognition.html">Pattern Recognition Training</a>
+                </div>
+            </div>
+            
+            <div class="section-card maintenance">
+                <h3>System Maintenance</h3>
+                <p>Regular recalibration practices and knowing when to use these tools vs. when to let disruption do its work.</p>
+                <div class="card-links">
+                    <a href="maintenance/recalibration.html">Regular Recalibration</a>
+                    <a href="maintenance/debug-vs-disruption.html">When to Debug vs. When to Disrupt</a>
+                    <a href="maintenance/temporal-literacy.html">Temporal Literacy Development</a>
+                    <a href="maintenance/system-coordination.html">Coordination with Other Systems</a>
+                    <a href="maintenance/bunny-os.html">Bunny OS: Neurodivergent Maintenance</a>
+                </div>
+            </div>
+            
+            <div class="section-card limitations">
+                <h3>Known Issues & Limitations</h3>
+                <p>Honest boundaries about when this framework doesn't apply and common misuse patterns to avoid.</p>
+                <div class="card-links">
+                    <a href="limitations/when-not-to-use.html">When This Framework Doesn't Apply</a>
+                    <a href="limitations/misuse-patterns.html">Common Misuse Patterns</a>
+                    <a href="limitations/sync-limitations.html">Why Perfect Sync Isn't the Goal</a>
+                    <a href="limitations/productive-disruption.html">The Necessity of Disruption</a>
+                    <a href="limitations/scope-boundaries.html">Scope & Boundaries</a>
+                </div>
             </div>
         </div>
-
-        <div class="intro-section">
-            <h2>Why This Matters</h2>
-            <p>The tension you feel is your consciousness doing its primary job: coordinating time. Learning to navigate this tension skillfully transforms anxiety into clarity, indecision into confident timing, and overwhelm into flow.</p>
+        
+        <div class="quick-start">
+            <h2>Quick Start Debug Protocol</h2>
+            <p>Stuck right now? Here's the basic debugging sequence:</p>
+            
+            <div class="quick-start-steps">
+                <div class="quick-start-step">
+                    <h4>1. Identify</h4>
+                    <p>What type of stuck are you?</p>
+                </div>
+                <div class="quick-start-step">
+                    <h4>2. Locate</h4>
+                    <p>Where do you feel it in your body?</p>
+                </div>
+                <div class="quick-start-step">
+                    <h4>3. Timing</h4>
+                    <p>Is this a rhythm issue?</p>
+                </div>
+                <div class="quick-start-step">
+                    <h4>4. Boundary</h4>
+                    <p>Merge or separate needed?</p>
+                </div>
+            </div>
+            
+            <a href="architecture/merge-separate.html" class="cta-button">Start with Merge/Separate</a>
         </div>
-
+        
+        <div class="disclaimer">
+            <h3>Important Notes</h3>
+            <p><strong>This is experimental:</strong> These tools emerged from personal debugging work and continue to evolve. Use what helps, leave what doesn't.</p>
+            <p><strong>Not therapy:</strong> This is a navigation toolkit, not a replacement for professional mental health support when needed.</p>
+            <p><strong>Living system:</strong> The framework grows and changes as new debugging challenges emerge. Nothing here is final.</p>
+        </div>
     </div>
-
+    
     <footer>
         <div class="container">
-            <p>&copy; 2024 DOS | Temporal Navigation Toolkit</p>
+            <p>&copy; 2024 DOS Debugging Manual | <a href="../index.html" style="color: #3498db;">Return to Journal</a></p>
         </div>
     </footer>
 </body>
