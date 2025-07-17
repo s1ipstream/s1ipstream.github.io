@@ -1,24 +1,24 @@
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+kb/__pycache__/
+kb/*.py[cod]
+kb/*$py.class
+kb/*.so
+kb/.Python
+kb/build/
+kb/develop-eggs/
+kb/dist/
+kb/downloads/
+kb/eggs/
+kb/.eggs/
+kb/lib/
+kb/lib64/
+kb/parts/
+kb/sdist/
+kb/var/
+kb/wheels/
+kb/*.egg-info/
+kb/.installed.cfg
+kb/*.egg
 
 # Virtual Environment
 venv/
@@ -38,11 +38,11 @@ ENV/
 # Project specific
 *.log
 .DS_Store
-source_materials/
-archive_index.jsonl
-dsm_analysis.txt
-dsm_content.txt
-skipped_files.json
+kb/source_materials/
+kb/archive_index.jsonl
+kb/dsm_analysis.txt
+kb/dsm_content.txt
+kb/skipped_files.json
 
 # Local development
 *.env.local
