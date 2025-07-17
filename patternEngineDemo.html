@@ -1,0 +1,46 @@
+import React, { useState } from "react";
+
+const GRID_SIZE = 32;
+
+export default function PatternEngine() {
+  const [grid, setGrid] = useState(
+    Array(GRID_SIZE)
+      .fill(null)
+      .map(() => Array(GRID_SIZE).fill(false))
+  );
+
+  const togglePixel = (row, col) => {
+    const newGrid = [...grid];
+    newGrid[row][col] = !newGrid[row][col];
+    setGrid(newGrid);
+  };
+
+  return (
+    <div className="flex flex-col items-center p-4">
+      <h1 className="text-xl font-bold mb-4">Pattern Engine</h1>
+      <div
+        className="grid"
+        style={{
+          gridTemplateColumns: `repeat(${GRID_SIZE}, 16px)`,
+          gap: "1px",
+        }}
+      >
+        {grid.map((row, rowIndex) =>
+          row.map((cell, colIndex) => (
+            <div
+              key={`${rowIndex}-${colIndex}`}
+              onClick={() => togglePixel(rowIndex, colIndex)}
+              className={`w-4 h-4 border border-gray-200 cursor-pointer ${
+                cell ? "bg-black" : "bg-white"
+              }`}
+            ></div>
+          ))
+        )}
+      </div>
+      <p className="mt-4 text-sm text-gray-600 text-center max-w-xl">
+        Click on pixels to toggle them. Every pixel is a decision point. The grid
+        is your field. Coherence emerges from your pattern.
+      </p>
+    </div>
+  );
+}

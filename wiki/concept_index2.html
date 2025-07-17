@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOS Concept Index - Navigation Map</title>
+    <style>
+        body { 
+            font-family: Inter, sans-serif; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        h1 { font-family: Futura, sans-serif; }
+        .concept-group { 
+            margin-bottom: 2rem; 
+            border-left: 3px solid #8B4A9C; 
+            padding-left: 1rem; 
+        }
+        .concept { 
+            margin-bottom: 1rem; 
+            background: #f8f9fa; 
+            padding: 1rem; 
+            border-radius: 4px; 
+        }
+        .concept-name { 
+            font-weight: 600; 
+            color: #2d3748; 
+            margin-bottom: 0.5rem; 
+        }
+        .appears-in { 
+            font-size: 0.9rem; 
+            color: #4a5568; 
+        }
+        .appears-in a { 
+            color: #8B4A9C; 
+            text-decoration: none; 
+            margin-right: 1rem; 
+        }
+        .appears-in a:hover { 
+            text-decoration: underline; 
+        }
+        .filter-tabs {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .filter-tabs button {
+            background: none;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            color: #4a5568;
+            border-bottom: 2px solid transparent;
+        }
+        .filter-tabs button.active {
+            color: #8B4A9C;
+            border-bottom-color: #8B4A9C;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOS Concept Index</h1>
+    <p>Navigate the framework by concept, research connection, or application</p>
+    
+    <div class="filter-tabs">
+        <button class="active" onclick="showAll()">All Concepts</button>
+        <button onclick="showLayer('core')">Core Operations</button>
+        <button onclick="showLayer('protocols')">Debugging Protocols</button>
+        <button onclick="showLayer('research')">Research Connections</button>
+        <button onclick="showLayer('experience')">Embodied Insights</button>
+    </div>
+
+    <div class="concept-group" data-layer="core">
+        <h2>Core Operations</h2>
+        
+        <div class="concept">
+            <div class="concept-name">Merge/Separate Binary</div>
+            <div class="appears-in">
+                <a href="#core-architecture">Core Architecture</a>
+                <a href="#decision-protocols">Decision Protocols</a>
+                <a href="#boundary-navigation">Boundary Navigation</a>
+                <a href="#relationship-debugging">Relationship Debugging</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">1:2:3 Tension-Release-Distribution</div>
+            <div class="appears-in">
+                <a href="#core-architecture">Core Architecture</a>
+                <a href="#overwhelm-protocols">Overwhelm Protocols</a>
+                <a href="#rhythm-recognition">Rhythm Recognition</a>
+                <a href="#energy-management">Energy Management</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Temporal Coordination</div>
+            <div class="appears-in">
+                <a href="#core-architecture">Core Architecture</a>
+                <a href="#timing-protocols">Timing Protocols</a>
+                <a href="#sync-detection">Sync Detection</a>
+                <a href="#social-navigation">Social Navigation</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">I=C/M (Identity Equation)</div>
+            <div class="appears-in">
+                <a href="#core-architecture">Core Architecture</a>
+                <a href="#identity-debugging">Identity Debugging</a>
+                <a href="#consciousness-navigation">Consciousness Navigation</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="concept-group" data-layer="protocols">
+        <h2>Debugging Protocols</h2>
+        
+        <div class="concept">
+            <div class="concept-name">Pattern Overwhelm</div>
+            <div class="appears-in">
+                <a href="#overwhelm-protocols">Overwhelm Protocols</a>
+                <a href="#sensory-regulation">Sensory Regulation</a>
+                <a href="#neurodivergent-navigation">Neurodivergent Navigation</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Recursive Loops</div>
+            <div class="appears-in">
+                <a href="#loop-breaking">Loop Breaking</a>
+                <a href="#anxiety-debugging">Anxiety Debugging</a>
+                <a href="#decision-paralysis">Decision Paralysis</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Boundary Confusion</div>
+            <div class="appears-in">
+                <a href="#boundary-protocols">Boundary Protocols</a>
+                <a href="#relationship-debugging">Relationship Debugging</a>
+                <a href="#energy-leaks">Energy Leaks</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Timing Misalignment</div>
+            <div class="appears-in">
+                <a href="#timing-protocols">Timing Protocols</a>
+                <a href="#sync-detection">Sync Detection</a>
+                <a href="#social-rhythm">Social Rhythm</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="concept-group" data-layer="research">
+        <h2>Research Connections</h2>
+        
+        <div class="concept">
+            <div class="concept-name">Neural Oscillations</div>
+            <div class="appears-in">
+                <a href="#neuroscience-validation">Neuroscience Validation</a>
+                <a href="#brain-rhythm">Brain Rhythm</a>
+                <a href="#coherence-measurement">Coherence Measurement</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Phase-Sensitive Intervention</div>
+            <div class="appears-in">
+                <a href="#timing-protocols">Timing Protocols</a>
+                <a href="#therapeutic-applications">Therapeutic Applications</a>
+                <a href="#intervention-timing">Intervention Timing</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Systems Theory</div>
+            <div class="appears-in">
+                <a href="#cybernetics-connection">Cybernetics Connection</a>
+                <a href="#autopoiesis">Autopoiesis</a>
+                <a href="#complexity-science">Complexity Science</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Embodied Cognition</div>
+            <div class="appears-in">
+                <a href="#body-based-navigation">Body-Based Navigation</a>
+                <a href="#felt-sense">Felt Sense</a>
+                <a href="#somatic-intelligence">Somatic Intelligence</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="concept-group" data-layer="experience">
+        <h2>Embodied Insights</h2>
+        
+        <div class="concept">
+            <div class="concept-name">Easter Eggs (Synchronicities)</div>
+            <div class="appears-in">
+                <a href="#field-recognition">Field Recognition</a>
+                <a href="#pattern-confirmation">Pattern Confirmation</a>
+                <a href="#timing-validation">Timing Validation</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Rhythm Recognition</div>
+            <div class="appears-in">
+                <a href="#timing-protocols">Timing Protocols</a>
+                <a href="#body-signals">Body Signals</a>
+                <a href="#natural-cycles">Natural Cycles</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Field Sensitivity</div>
+            <div class="appears-in">
+                <a href="#environmental-navigation">Environmental Navigation</a>
+                <a href="#social-field">Social Field</a>
+                <a href="#energy-awareness">Energy Awareness</a>
+            </div>
+        </div>
+
+        <div class="concept">
+            <div class="concept-name">Temporal Overwhelm</div>
+            <div class="appears-in">
+                <a href="#modern-life-navigation">Modern Life Navigation</a>
+                <a href="#digital-rhythm">Digital Rhythm</a>
+                <a href="#pace-regulation">Pace Regulation</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showAll() {
+            document.querySelectorAll('.concept-group').forEach(group => {
+                group.style.display = 'block';
+            });
+            updateActiveTab('All Concepts');
+        }
+
+        function showLayer(layer) {
+            document.querySelectorAll('.concept-group').forEach(group => {
+                if (group.dataset.layer === layer) {
+                    group.style.display = 'block';
+                } else {
+                    group.style.display = 'none';
+                }
+            });
+            updateActiveTab(layer);
+        }
+
+        function updateActiveTab(activeText) {
+            document.querySelectorAll('.filter-tabs button').forEach(button => {
+                button.classList.remove('active');
+                if (button.textContent.includes(activeText) || 
+                    (activeText === 'core' && button.textContent === 'Core Operations') ||
+                    (activeText === 'protocols' && button.textContent === 'Debugging Protocols') ||
+                    (activeText === 'research' && button.textContent === 'Research Connections') ||
+                    (activeText === 'experience' && button.textContent === 'Embodied Insights')) {
+                    button.classList.add('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
