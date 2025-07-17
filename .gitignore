@@ -1,51 +1,103 @@
 # Python
 kb/__pycache__/
+kb/**/__pycache__/
 kb/*.py[cod]
+kb/**/*.py[cod]
 kb/*$py.class
+kb/**/*$py.class
 kb/*.so
 kb/.Python
-kb/build/
-kb/develop-eggs/
-kb/dist/
-kb/downloads/
-kb/eggs/
-kb/.eggs/
-kb/lib/
-kb/lib64/
-kb/parts/
-kb/sdist/
-kb/var/
-kb/wheels/
-kb/*.egg-info/
-kb/.installed.cfg
-kb/*.egg
+kb/**/build/
+kb/**/dist/
+kb/**/*.egg-info/
+kb/**/.eggs/
+kb/**/.installed.cfg
+kb/**/*.egg
 
 # Virtual Environment
 venv/
 env/
+.env/
+.venv/
 ENV/
-.env
+env.bak/
+venv.bak/
+pythonenv*/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+*.swn
+*~
+.project
+.settings/
+.classpath
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
+kb/**/.ipynb_checkpoints/
 
-# Project specific
-*.log
-.DS_Store
+# Data and Artifacts
+kb/data/
+kb/datasets/
+kb/raw_data/
+kb/processed_data/
+kb/interim_data/
+kb/external_data/
 kb/source_materials/
+kb/output/
+kb/results/
+kb/models/
+kb/artifacts/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+kb/logs/
+kb/**/*.log
+kb/temp/
+kb/tmp/
+
+# Project specific files
 kb/archive_index.jsonl
 kb/dsm_analysis.txt
 kb/dsm_content.txt
 kb/skipped_files.json
+kb/**/*.jsonl
+kb/**/*.csv
+kb/**/*.xlsx
+kb/**/*.parquet
+kb/**/*.pickle
+kb/**/*.pkl
+kb/**/*.h5
+kb/**/*.hdf5
+kb/**/*.zip
+kb/**/*.gz
+kb/**/*.tar
+kb/**/*.rar
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Local development
-*.env.local
-*.env.development.local
-*.env.test.local
-*.env.production.local 
+.env*
+!.env.example
+*.local
+.local/
+.history/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+.mypy_cache/ 
