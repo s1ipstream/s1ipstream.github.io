@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunny OS | DOS Debugging Manual</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: #9b59b6;
+            color: white;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .breadcrumb {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .breadcrumb a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .page-header {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .page-header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-meta {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .concept-tags {
+            margin-top: 1rem;
+        }
+        
+        .concept-tag {
+            display: inline-block;
+            background: #9b59b6;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin: 0.25rem;
+            text-decoration: none;
+        }
+        
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .content h2 {
+            color: #2c3e50;
+            margin: 2rem 0 1rem 0;
+            border-bottom: 2px solid #9b59b6;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content h3 {
+            color: #34495e;
+            margin: 1.5rem 0 1rem 0;
+        }
+        
+        .debug-highlight {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 4px solid #f39c12;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .debug-highlight h4 {
+            color: #d68910;
+            margin-bottom: 1rem;
+        }
+        
+        .protocol-box {
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .protocol-box h4 {
+            color: #27ae60;
+            margin-bottom: 1rem;
+        }
+        
+        .nervous-system-demo {
+            background: #f0f8ff;
+            border: 1px solid #b3d9ff;
+            border-left: 4px solid #3498db;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .nervous-system-demo h4 {
+            color: #2980b9;
+            margin-bottom: 1rem;
+        }
+        
+        .related-concepts {
+            background: #e8f4f8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        
+        .related-concepts h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .concept-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 4px;
+            border: 1px solid #bdc3c7;
+        }
+        
+        .concept-card h4 {
+            color: #3498db;
+            margin-bottom: 0.5rem;
+        }
+        
+        .concept-card a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .backlinks {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .backlinks h3 {
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+        }
+        
+        .backlinks ul {
+            list-style: none;
+        }
+        
+        .backlinks li {
+            margin: 0.5rem 0;
+        }
+        
+        .backlinks a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> > 
+                <a href="../maintenance/index.html">System Maintenance</a> > 
+                Bunny OS
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="page-header">
+            <h1>Bunny OS</h1>
+            <div class="page-meta">
+                System Maintenance Protocol | Last updated: Today | <a href="#edit">Edit this page</a>
+            </div>
+            <div class="concept-tags">
+                <span class="concept-tag">neurodivergent-maintenance</span>
+                <span class="concept-tag">pda-protocols</span>
+                <span class="concept-tag">boundary-sensitivity</span>
+                <span class="concept-tag">pattern-overwhelm</span>
+                <span class="concept-tag">field-maintenance</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="debug-highlight">
+                <h4>🐰 What is Bunny OS?</h4>
+                <p>The "Bunny OS" is a <strong>field maintenance system</strong> designed for neurodivergent consciousness navigation. Originally developed as an internal diagnostic tool for PDA (Pathological Demand Avoidance) patterns, it transforms into an external "Field Maintenance Manual for Human Consciousness."</p>
+                <p>It works with your natural patterns rather than forcing organization, recognizing that <strong>"flow now, sort later"</strong> is often more effective than rigid structure.</p>
+            </div>
+            
+            <h2>Core Operating Principles</h2>
+            
+            <h3>1. Pattern Recognition Over Force</h3>
+            <p>The Bunny OS identifies specific states like:</p>
+            <ul>
+                <li><strong>"Hyper-fixation on something lost"</strong> - when attention gets trapped</li>
+                <li><strong>"Overwhelm at possible consequences"</strong> - when decision trees become paralyzing</li>
+                <li><strong>"Too many open causal branches"</strong> - when pattern complexity exceeds processing capacity</li>
+            </ul>
+            
+            <div class="protocol-box">
+                <h4>🔧 Debug Protocol: Overwhelm State</h4>
+                <p><strong>When:</strong> You feel "too many open causal branches" causing overwhelm</p>
+                <p><strong>Action:</strong> "Reduce input; close tabs; bunny needs a narrower trail"</p>
+                <p><strong>Why it works:</strong> Matches your system's natural boundary sensitivity instead of forcing through</p>
+            </div>
+            
+            <h3>2. Dynamic Content Flow</h3>
+            <p>For content creation and knowledge work, the Bunny OS suggests working <strong>with</strong> your natural burst patterns:</p>
+            
+            <ul>
+                <li><strong>"Flow now, sort later" for output:</strong> Capture and release immediately rather than over-editing</li>
+                <li><strong>"Nonlinear editing" for repository building:</strong> Use tools that allow cutting and rearranging as patterns cluster</li>
+                <li><strong>Embrace the bursts:</strong> "You're not farming resonance, you're following it"</li>
+            </ul>
+            
+            <h2>Nervous System Demonstrations</h2>
+            <p>The Bunny OS includes specific <strong>"nervous system clicking"</strong> exercises - embodied demonstrations that help people feel the patterns being described.</p>
+            
+            <div class="nervous-system-demo">
+                <h4>🔍 Try This: Friction Detection</h4>
+                <p><strong>Exercise:</strong> "Notice the tingling in your fingers and toes when you feel stuck or resistant."</p>
+                <p><strong>What it demonstrates:</strong> Friction as productive resistance - the felt sensation of patterns meeting and creating "heat for dimensional translation."</p>
+                <p><strong>Application:</strong> Learn to recognize friction as information rather than obstacle.</p>
+            </div>
+            
+            <div class="nervous-system-demo">
+                <h4>⚡ Try This: Tension-Release-Distribution Cycle</h4>
+                <p><strong>Exercise:</strong> "Feel a big emotion brewing? Instead of holding it, allow your body to shake or sigh. Notice the 'distribution' of energy afterward."</p>
+                <p><strong>What it demonstrates:</strong> The fundamental 1:2:3 cycle that operates at every level of reality.</p>
+                <p><strong>Application:</strong> Practice conscious navigation through natural emotional cycles.</p>
+            </div>
+            
+            <div class="nervous-system-demo">
+                <h4>🎵 Try This: Boundary Dynamics</h4>
+                <p><strong>Exercise:</strong> "Notice how your breath feels when you intentionally expand your chest versus when you allow it to soften."</p>
+                <p><strong>What it demonstrates:</strong> Boundaries as dynamic interfaces that allow selective exchange.</p>
+                <p><strong>Application:</strong> Learn to adjust boundary permeability consciously.</p>
+            </div>
+            
+            <h2>Content Strategy Framework</h2>
+            <p>The Bunny OS transforms personal debugging into a systematic approach for sharing insights. Each piece of content becomes a "micro-experiment" structured around:</p>
+            
+            <ul>
+                <li><strong>MACRO:</strong> Core principle (theoretical foundation)</li>
+                <li><strong>MESO:</strong> Application (how it reframes a domain)</li>
+                <li><strong>MICRO:</strong> Embodied demonstration (nervous system click)</li>
+            </ul>
+            
+            <h2>When to Use Bunny OS</h2>
+            <div class="protocol-box">
+                <h4>✅ Use Bunny OS when:</h4>
+                <ul>
+                    <li>Feeling overwhelmed by too many options or inputs</li>
+                    <li>Struggling with imposed organization systems</li>
+                    <li>Experiencing "pattern fatigue" from forcing linear work</li>
+                    <li>Needing to work with PDA or similar neurodivergent patterns</li>
+                    <li>Creating content that needs to be both deep and accessible</li>
+                </ul>
+            </div>
+            
+            <h2>System Maintenance Notes</h2>
+            <p>The Bunny OS recognizes that <strong>"your scattered notes aren't disorganization - they're field research from the laboratory of your life."</strong> The goal isn't perfect organization but functional flow that works with your natural patterns.</p>
+            
+            <p>This approach transforms the challenge of consciousness navigation from a discipline problem into a <strong>systems design problem</strong> - creating conditions where your natural intelligence can function optimally.</p>
+            
+            <div class="related-concepts">
+                <h3>Related Concepts</h3>
+                <div class="concept-grid">
+                    <div class="concept-card">
+                        <h4><a href="../protocols/overwhelm-debugging.html">Overwhelm Debugging</a></h4>
+                        <p>General protocols for pattern overload situations</p>
+                    </div>
+                    <div class="concept-card">
+                        <h4><a href="../architecture/sensory-intelligence.html">Sensory Intelligence</a></h4>
+                        <p>The body as primary pattern navigation interface</p>
+                    </div>
+                    <div class="concept-card">
+                        <h4><a href="../tools/boundary-decisions.html">Boundary Decision-Making</a></h4>
+                        <p>How to make merge/separate choices consciously</p>
+                    </div>
+                    <div class="concept-card">
+                        <h4><a href="../maintenance/neurodivergent-support.html">Neurodivergent Support Systems</a></h4>
+                        <p>Other frameworks for non-standard consciousness patterns</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="backlinks">
+            <h3>Pages linking here:</h3>
+            <ul>
+                <li><a href="../maintenance/index.html">System Maintenance Overview</a></li>
+                <li><a href="../protocols/overwhelm-debugging.html">Overwhelm Debugging</a></li>
+                <li><a href="../applications/content-creation.html">Content Creation Applications</a></li>
+                <li><a href="../limitations/neurodivergent-considerations.html">Neurodivergent Considerations</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
