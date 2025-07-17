@@ -101,3 +101,8 @@ htmlcov/
 coverage.xml
 .tox/
 .mypy_cache/ 
+# ignore raw data moved to KB repo
+archive_index.jsonl
+dsm_analysis.txt
+dsm_content.txt
+skipped_files.json
