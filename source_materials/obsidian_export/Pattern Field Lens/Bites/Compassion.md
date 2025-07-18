@@ -1,4 +1,0 @@
-- We must stop blaming people for their problems
-- We must recognize that everyone is navigating patterns as best they can
-- We must understand that healing is about alignment, not force
-- We must see that timing and appropriate support matter more than willpower

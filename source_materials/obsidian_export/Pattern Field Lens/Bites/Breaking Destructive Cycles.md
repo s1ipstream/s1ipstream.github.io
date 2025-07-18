@@ -1,4 +1,0 @@
-- Addiction is pattern seeking rather than moral failure
-- Self-harm should be approached through pattern recognition rather than control
-- Suicidal ideation is a distorted attempt to resolve unbearable pattern tension
-- Relationship violence should be addressed through pattern transformation rather than just behavior management

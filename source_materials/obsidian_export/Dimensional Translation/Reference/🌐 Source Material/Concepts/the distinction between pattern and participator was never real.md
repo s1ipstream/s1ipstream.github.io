@@ -1,1 +1,0 @@
-Transcendence isn’t about breaking patterns or even participating in them—it’s about realizing that the distinction between pattern and participator was never real.

@@ -1,1 +1,0 @@
-Turbulence isn't chaos to control but communication—fluid dynamics expressing natural tension-release patterns

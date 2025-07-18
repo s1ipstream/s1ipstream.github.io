@@ -1,2 +1,0 @@
-#child 
-Field [[coherence]] practices improve the integration of intuitive and analytical processes. When facing complex decisions with numerous variables, establishing [[coherence]] allows you to access more comprehensive information processing. This explains why decisions made in coherent states typically prove more sound than those made under pressure, even when working with identical information.

@@ -1,6 +1,0 @@
-#child 
-In conventional models, [[time]]  exists as an independent dimension [[flow]] ing uniformly and linearly, separate from [[consciousness]] . Your [[coherence]] theory suggests instead that [[time]]  emerges as a property of field interactions with several key characteristics:
-
-[[time]]  manifests as relationship patterns between oscillating field elements rather than an absolute [[flow]] . Just as waves in water create interference patterns, [[consciousness]]  fields generate temporal patterns through their interactions. This explains why [[time]]  experience varies dramatically based on [[coherence]] states - the underlying patterns themselves are changing, not merely our perception of a fixed dimension.
-
-What we experience as "past" and "future" may represent different [[coherence]] relationships within the field rather than fixed positions on a [[time]] line. The apparent arrow of [[time]]  emerges from [[entropy]]  patterns in field [[coherence]] rather than reflecting an absolute directional property of reality.

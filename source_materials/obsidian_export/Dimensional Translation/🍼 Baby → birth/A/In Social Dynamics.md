@@ -1,4 +1,0 @@
-#child 
-1. **Mass Behavior Shifts** - Populations frequently demonstrate sudden, widespread changes in attitude or behavior without direct [[communication]]  channels, from financial market movements to social movements emerging simultaneously across disconnected regions.
-2. **Group [[flow]]  States** - High-performing teams experience synchronization beyond what can be explained by ordinary [[communication]] , achieving coordination that suggests direct field [[resonance]].
-3. **Cultural [[coherence]]** - Societies maintain coherent cultural patterns even without centralized control mechanisms, demonstrating field-level organization that transcends individual interactions.

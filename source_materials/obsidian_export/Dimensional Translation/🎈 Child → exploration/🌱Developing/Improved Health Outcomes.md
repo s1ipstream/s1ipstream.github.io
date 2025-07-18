@@ -1,2 +1,0 @@
-#child 
-Research consistently demonstrates connections between [[coherence]] states and health markers. The [[🎈 Child → exploration/🏷️ Tags/heart]] Math Institute has documented how coherent [[🎈 Child → exploration/🏷️ Tags/heart]]  rhythms correlate with improved immune function, hormonal balance, and cognitive performance. By regularly practicing [[coherence]] techniques like rhythmic breathing (5-6 breaths per minute), you can measurably reduce inflammation, improve sleep quality, and enhance recovery from illness or injury.

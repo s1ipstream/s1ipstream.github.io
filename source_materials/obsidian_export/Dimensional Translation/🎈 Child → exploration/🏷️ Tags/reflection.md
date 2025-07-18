@@ -1,4 +1,0 @@
-#foundation 
-
-# recursive self-awareness
-

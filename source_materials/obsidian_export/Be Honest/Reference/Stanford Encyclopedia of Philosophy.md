@@ -1,1 +1,0 @@
-[Table of Contents (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/contents.html) 

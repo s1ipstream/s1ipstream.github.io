@@ -1,2 +1,0 @@
-
-The "spooky action at a distance" of quantum entanglement might be better understood as manifestations of pattern connectedness in the field - not separate particles communicating, but expressions of the same underlying pattern.

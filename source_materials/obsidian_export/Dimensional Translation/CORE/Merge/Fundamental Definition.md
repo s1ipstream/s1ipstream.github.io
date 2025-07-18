@@ -1,4 +1,0 @@
-#child 
-In [[physics]] , action is defined as the integral of the Lagrangian over [[time]] . The Lagrangian represents the difference between kinetic and potential [[energy]]  in a system. According to the principle of least action (or stationary action), physical systems evolve along paths that minimize or make stationary this action integral.
-
-This fundamental principle reveals that nature operates not through forces pushing objects along predetermined paths, but through a holistic optimization process where all possible paths are simultaneously considered, and the one with minimum action emerges as reality.

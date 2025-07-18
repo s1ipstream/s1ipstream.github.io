@@ -1,3 +1,0 @@
-[[awareness]] [[friction]] [[tension & release]] 
-
-

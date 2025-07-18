@@ -1,4 +1,0 @@
-#child 
-People often believe they can hide their true nature or intentions behind careful presentation, but field [[coherence]] makes this virtually impossible in sustained interaction. Even when someone successfully conceals specific information, their overall field pattern reveals the presence of concealment itself. This explains why we often sense someone is withholding something without knowing what the specific content might be.
-
-The field distortion created by maintaining a false presentation requires significant [[energy]]  and creates characteristic patterns that others detect, often described as someone feeling "off" or "inauthentic." What makes this particularly revealing is that the person projecting the false presentation typically doesn't realize how visible the in[[coherence]] is to others with field sensitivity.

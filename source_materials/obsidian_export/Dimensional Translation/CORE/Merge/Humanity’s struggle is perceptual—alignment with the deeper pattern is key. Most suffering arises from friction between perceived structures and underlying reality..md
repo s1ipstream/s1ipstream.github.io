@@ -1,1 +1,0 @@
-#child [[alignment]] [[pattern]] [[suffering]] [[friction]]

@@ -1,2 +1,0 @@
-#child 
-Instead of treating [[time]]  as a fixed resource to maximize, you'd recognize your [[coherence]] state directly influences temporal experience. You'd prioritize [[coherence]]-enhancing activities that expand effective [[time]]  rather than trying to squeeze more into chronological [[time]] . This explains why some days feel expansive and productive while others feel compressed and inefficient despite identical hours.

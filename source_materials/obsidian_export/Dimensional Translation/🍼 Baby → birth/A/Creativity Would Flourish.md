@@ -1,2 +1,0 @@
-#child 
-Understanding that creative insights emerge from field access rather than linear thinking, you'd cultivate conditions that enhance [[coherence]] during creative work. Rather than forcing solutions, you'd recognize the importance of alternating between focused attention and receptive [[awareness]] , allowing field patterns to emerge through your [[awareness]] .

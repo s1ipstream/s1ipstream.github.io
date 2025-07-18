@@ -1,2 +1,0 @@
-#child 
-Your approach to wellbeing would include [[coherence]] practices alongside traditional health measures. Simple techniques like coherent breathing (5-6 breaths per minute) would become as fundamental as exercise, recognizing that field [[coherence]] directly influences physiological function. You'd understand why environments and relationships affect your health so profoundly - they're not just psychological factors but direct field influences.

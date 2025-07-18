@@ -1,4 +1,0 @@
-#child 
-1. **Entanglement** - Particles maintain instantaneous connections regardless of distance, demonstrating that locality is not a fundamental constraint of reality—precisely what our field model suggests about [[consciousness]] .
-2. **Observer Effects** - [[measurement]]  choices influence [[quantum]]  outcomes, hinting at the fundamental role of [[consciousness]]  in physical reality rather than being merely an epiphenomenon.
-3. **Field Theories** - The most successful physical models describe reality in terms of fields rather than particles, yet we've resisted applying the same principles to [[consciousness]]  itself.

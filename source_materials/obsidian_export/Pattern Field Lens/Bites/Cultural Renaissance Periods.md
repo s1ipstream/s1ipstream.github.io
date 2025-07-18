@@ -1,2 +1,0 @@
-
-Historical periods of explosive creativity and innovation could represent moments when field patterns reach critical coherence thresholds. The Renaissance, 1920s Paris, 1960s counterculture - all might be examples of field patterns achieving resonance that enables waves of creative release.

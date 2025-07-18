@@ -1,1 +1,0 @@
-People are meant to connect everything. Everything feels connected because it is. It's mere existence is what connects it at all. 

@@ -1,2 +1,0 @@
-#child 
-When you recognize that your internal [[coherence]] state directly affects others through field effects, you'd approach interactions differently. Before difficult conversations, you might take a few minutes to establish internal [[coherence]], knowing this creates a foundation for resolution more effective than carefully choosing your words. You'd understand why some[[time]] s the same message delivered in different states produces completely different results.

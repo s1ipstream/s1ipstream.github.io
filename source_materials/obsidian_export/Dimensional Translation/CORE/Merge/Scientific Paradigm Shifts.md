@@ -1,2 +1,0 @@
-#child 
-This model requires fundamental revisions to our understanding of [[consciousness]]  and its relationship to physical systems. It suggests [[consciousness]]  isn't produced by the [[brain]]  but rather expressed through it—with the [[brain]]  functioning as a transceiver for field patterns rather than their generator. This would necessitate reexamining assumptions across neuroscience, [[psychology]] , and [[physics]] .

@@ -1,2 +1,0 @@
-
-The placebo effect might be consciousness directly influencing pattern coherence through attention. When someone believes they'll heal, they're actively conditioning the field of their body toward coherent patterns, creating real physical changes without physical intervention.

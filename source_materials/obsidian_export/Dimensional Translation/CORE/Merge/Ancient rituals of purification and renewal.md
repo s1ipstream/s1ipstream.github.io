@@ -1,3 +1,0 @@
-#A2 [[spirituality]] [[supporting evidence]] [[tension & release]] 
-
-Ancient rituals of purification and renewal, seen in both spiritual and physical practices (like bathing, fasting, or the symbolism of death and rebirth), suggest that tension is often something to be worked through, confronted, and ultimately released. Many societies had rituals designed specifically to help people shed emotional or spiritual tension, sometimes through catharsis, confessions, or community support.

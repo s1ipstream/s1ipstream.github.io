@@ -1,1 +1,0 @@
-[DOPS RESEARCH](https://med.virginia.edu/perceptual-studies/our-research/children-who-report-memories-of-previous-lives/)

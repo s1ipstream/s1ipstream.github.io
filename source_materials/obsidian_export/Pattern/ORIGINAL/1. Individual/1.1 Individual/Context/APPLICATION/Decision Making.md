@@ -1,2 +1,0 @@
-- **Good decisions are made with the right contextual frame.**
-- Example: Investing in a company based only on profits ignores broader **market and social context.**

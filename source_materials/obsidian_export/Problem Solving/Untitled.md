@@ -1,1 +1,0 @@
-[[compass_artifact_wf-e577e68c-3b5e-4f46-b273-9a7a1143dd34_text_markdown]]

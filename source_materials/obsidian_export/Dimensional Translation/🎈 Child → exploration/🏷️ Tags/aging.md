@@ -1,1 +1,0 @@
-field-[[coherence]] challenges rather than inevitable decline

@@ -1,4 +1,0 @@
-#child 
-1. **Collective Intuition** - Studies repeatedly show that groups can access information beyond what individual members consciously know, particularly when in states of high [[coherence]].
-2. **Emotional Atmosphere** - We readily perceive and are influenced by "the mood in the room" without any explicit [[communication]] , directly [[sensing]]  field states rather than just observing behavioral cues.
-3. **Simultaneous Discovery** - Throughout history, major breakthroughs have occurred simultaneously by unconnected researchers (calculus, evolutionary theory, telephone [[technology]] ), suggesting ideas emerge from collective fields when reaching threshold states.

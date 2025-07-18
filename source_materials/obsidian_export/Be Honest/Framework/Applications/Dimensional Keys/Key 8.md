@@ -1,1 +1,0 @@
-Identify instances where language, metaphors, or storytelling are described as tools for "pattern organization" or "making the unseen visible" [Testing Scope, The Cultivation Manual for Linguistic Mycelium].

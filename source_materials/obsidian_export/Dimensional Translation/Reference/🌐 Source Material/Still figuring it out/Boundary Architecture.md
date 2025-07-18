@@ -1,1 +1,0 @@
-Paradoxes are linguistic demonstrations of our thinking boundaries.

@@ -1,1 +1,0 @@
-Reality is a network of interconnected, tensioned threads

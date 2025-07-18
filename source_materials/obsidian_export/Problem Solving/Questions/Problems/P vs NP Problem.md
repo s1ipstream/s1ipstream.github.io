@@ -1,1 +1,0 @@
-The difficulty gap between solving and verifying might be a feature, not a bug—a natural protection mechanism driving innovation

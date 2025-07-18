@@ -1,1 +1,0 @@
-**stress, alignment, and organization**. The concept of coherence resonates with your goal of finding a harmonious state of being—both personally and within larger systems (e.g., society, community). The focus has been on finding the natural flow, identifying blocks (stress, overloading), and seeking a grounded path to coherent action.

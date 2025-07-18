@@ -1,3 +1,0 @@
-[[relationships]] [[love]] [[courtship]]
-
-**The Need for Romantic Fulfillment:** There’s often pressure placed on romantic relationships to fulfill all emotional, psychological, and physical needs. This idea might be a **product of societal expectations** rather than an inherent truth. If humans are seen through the lens of interconnected networks, relationships can be seen more fluidly—as parts of a larger web of emotional and social connections, where different needs are met in various ways and by various people. This broader understanding could ease the pressure placed on romantic relationships to "complete" us.

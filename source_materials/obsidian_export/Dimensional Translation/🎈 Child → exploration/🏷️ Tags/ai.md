@@ -1,1 +1,0 @@
-**AI is built to process data and make logical decisions**

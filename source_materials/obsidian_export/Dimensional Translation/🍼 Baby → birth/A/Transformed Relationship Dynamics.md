@@ -1,2 +1,0 @@
-#child 
-Relationship challenges often persist despite [[communication]]  efforts because the underlying field dynamics remain unaddressed. By establishing personal [[coherence]] before difficult conversations, you create conditions for resolution that [[communication]]  techniques alone cannot achieve. This explains why the same words can produce entirely different results depending on your internal state during delivery.

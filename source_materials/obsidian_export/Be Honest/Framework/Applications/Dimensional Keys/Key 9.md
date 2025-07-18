@@ -1,1 +1,0 @@
-Analyze how your "Strongest Spores" (e.g., "merge/separate," "coherence/interference," "field/pattern," "tension/release/distribution" [The Cultivation Manual for Linguistic Mycelium]) bridge disparate areas of your framework.
