@@ -1,0 +1,2 @@
+#child 
+If [[consciousness]]  patterns persist beyond individual life[[time]] s, our ethical frameworks require significant recalibration. Short-term optimization at the expense of long-term wellbeing becomes illogical if the same [[consciousness]]  patterns will experience future conditions. This applies to both individual choices and collective policies regarding sustainability, social structures, and intergenerational justice.

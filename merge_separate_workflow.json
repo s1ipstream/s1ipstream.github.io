@@ -1,0 +1,34 @@
+{
+    "name": "Merge Separate Content Population",
+    "nodes": [
+        {
+            "parameters": {
+                "functionCode": "// Load the KB analyzer\nconst analyzer = require('./kb_analyzer.js');\n\n// Extract content for merge_separate tag\nconst result = await analyzer.extractContentByTag(items, 'merge_separate');\n\n// Get related concepts\nconst related = await analyzer.generateRelatedConcepts(items, 'merge_separate');\n\n// Return combined results\nreturn [\n    {\n        json: {\n            mainContent: result,\n            relatedConcepts: related\n        }\n    }\n];"
+            },
+            "name": "Extract Content",
+            "type": "n8n-nodes-base.function",
+            "position": [250, 300]
+        },
+        {
+            "parameters": {
+                "functionCode": "// Format content for HTML insertion\nconst formatContent = (content) => {\n    return content.map(item => `\n        <section class=\"content-section\">\n            <h3>${item.filename}</h3>\n            <div class=\"summary\">${item.summary}</div>\n            <div class=\"tags\">${item.tags.join(', ')}</div>\n            <div class=\"content\">${item.content}</div>\n        </section>\n    `).join('\\n');\n};\n\n// Format related concepts\nconst formatRelated = (related) => {\n    return related.relatedConcepts.map(concept => `\n        <li class=\"related-concept ${concept.category}\">\n            <a href=\"/concepts/${concept.tag}.html\">${concept.tag.replace('_', ' ')}</a>\n            <span class=\"count\">(${concept.count} connections)</span>\n        </li>\n    `).join('\\n');\n};\n\n// Read existing HTML file\nconst fs = require('fs');\nconst path = require('path');\nconst htmlPath = path.join(__dirname, 'concepts/merge-separate.html');\nlet html = fs.readFileSync(htmlPath, 'utf8');\n\n// Replace content placeholders\nhtml = html.replace('<!-- CONTENT -->', formatContent(items[0].json.mainContent.content));\nhtml = html.replace('<!-- RELATED_CONCEPTS -->', formatRelated(items[0].json.relatedConcepts));\n\n// Write updated file\nfs.writeFileSync(htmlPath, html);\n\nreturn items;"
+            },
+            "name": "Update HTML",
+            "type": "n8n-nodes-base.function",
+            "position": [450, 300]
+        }
+    ],
+    "connections": {
+        "Extract Content": {
+            "main": [
+                [
+                    {
+                        "node": "Update HTML",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    }
+} 

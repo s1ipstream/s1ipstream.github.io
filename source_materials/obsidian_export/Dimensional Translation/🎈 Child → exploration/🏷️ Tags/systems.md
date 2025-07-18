@@ -1,0 +1,1 @@
+Instead of **abstract morality**, we should **build systems around direct experience and natural flow.** 

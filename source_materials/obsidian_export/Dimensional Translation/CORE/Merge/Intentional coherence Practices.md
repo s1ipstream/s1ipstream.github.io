@@ -1,0 +1,2 @@
+#child 
+Unlike someone entering the experience without preparation, you could actively work with [[coherence]] principles during the experience itself. This might include intentional practices for establishing [[coherence]] within challenging experiences or exploring specific aspects of field dynamics with focused attention.

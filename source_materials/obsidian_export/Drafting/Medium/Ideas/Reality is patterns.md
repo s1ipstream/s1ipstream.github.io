@@ -1,0 +1,1 @@
+Rather than separate objects, our universe is an infinitely developing field of patterned relationships

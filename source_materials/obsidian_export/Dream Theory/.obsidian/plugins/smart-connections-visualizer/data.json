@@ -1,0 +1,18 @@
+{
+  "relevanceScoreThreshold": 0,
+  "nodeSize": 4.56,
+  "linkThickness": 0.3,
+  "repelForce": 244,
+  "linkForce": 1,
+  "linkDistance": 103,
+  "centerForce": 0.1,
+  "textFadeThreshold": 2.26,
+  "minLinkThickness": 0.1,
+  "maxLinkThickness": 10,
+  "maxLabelCharacters": 18,
+  "linkLabelSize": 7,
+  "nodeLabelSize": 6,
+  "connectionType": "both",
+  "noteFillColor": "#7c8594",
+  "blockFillColor": "#926ec9"
+}

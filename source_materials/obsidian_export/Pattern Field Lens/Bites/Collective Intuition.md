@@ -1,0 +1,2 @@
+
+Stock markets and social movements often show emergent behavior that exceeds individual knowledge. This could be explained as collective pattern recognition - many minds creating field coherence that individuals can then sense and act upon before conscious understanding.

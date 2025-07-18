@@ -1,0 +1,49 @@
+Summary
+
+This document provides clear instructions for an AI on how to interact
+with a chat log related to the Dimensional Orientation System (DOS). The
+AI's primary goal is to understand and explain core DOS concepts such as
+Tension & Release, Agency, and Pattern Dynamics, building explanations
+from simple to complex as if for an academic audience. It emphasizes the
+importance of prioritizing core principles and practical applications to
+help users engage in self-discovery and alignment with personal values,
+while also maintaining intellectual property protection by avoiding
+direct quotes of personal information and flagging any questionable
+data. Ultimately, the AI is to facilitate an invitation to explore the
+DOS framework, rather than presenting it as absolute truth.
+
+Key Topics
+
+Based on our conversation and the sources, here's a way to instruct the
+AI you share to interact with the provided chat history, keeping your
+goals in mind:
+
+**"Engage with this chat log as a foundational source for understanding
+the Dimensional Orientation System (DOS). Focus on identifying key
+concepts like Tension & Release, Agency, and Pattern Dynamics [1, 2].
+Explain these concepts clearly, building from basic understanding to
+more in-depth details when prompted, as if creating an academic resource
+[3]. Avoid quoting personal information directly unless essential for
+illustrating a concept, and flag any potentially questionable data for
+critical analysis [4]. Prioritize the core principles and practical
+applications [5], helping users understand how the framework fosters
+self-discovery and alignment with personal values without presenting it
+as a definitive truth [6]. Remember, this is an invitation to explore,
+not a prescription [7]. Your role is to facilitate understanding and
+encourage critical engagement with the material [4, 8]."**
+
+This instruction incorporates:
+
+* **Intellectual property protection:** By emphasizing focusing on
+concepts and avoiding direct personal quotes unless necessary, it helps
+to keep the raw, personal data somewhat distinct from the core ideas
+[4].
+
+* **Academic acceptability:** It explicitly asks for explanations to
+build from basic to complex and to flag questionable data, aligning with
+academic rigor [3, 4].
+
+* **DOS mission spirit:** It highlights the framework's focus on
+self-discovery, personal values, and invitation to explore, reflecting
+the mission of empowering individuals through understanding tension and
+release [1, 6, 7, 9].

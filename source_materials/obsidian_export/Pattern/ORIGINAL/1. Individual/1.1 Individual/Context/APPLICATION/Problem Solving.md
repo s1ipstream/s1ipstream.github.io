@@ -1,0 +1,2 @@
+- Stuck in a problem? **Change the context, not the problem.**
+- Instead of asking “Why can’t I solve this?” → Ask “What context makes this solvable?”

@@ -1,0 +1,158 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "🎈 Child → exploration/🌱Developing",
+      "tag": "#child",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/❔ Questions",
+      "tag": "#question",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/✏️Writing",
+      "tag": "#writing",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery",
+      "tag": "#adolescent",
+      "pattern": ""
+    },
+    {
+      "folder": "🗺️ Young Adult→ structuring",
+      "tag": "#ya",
+      "pattern": ""
+    },
+    {
+      "folder": "🛠️ Adult → refinement",
+      "tag": "#adult",
+      "pattern": ""
+    },
+    {
+      "folder": "🍼 Baby → birth/A",
+      "tag": "#A",
+      "pattern": ""
+    },
+    {
+      "folder": "🍼 Baby → birth/B",
+      "tag": "#B",
+      "pattern": ""
+    },
+    {
+      "folder": "🍼 Baby → birth/C",
+      "tag": "#C",
+      "pattern": ""
+    },
+    {
+      "folder": "🍼 Baby → birth/D",
+      "tag": "#D",
+      "pattern": ""
+    },
+    {
+      "folder": "🍼 Baby → birth/F",
+      "tag": "#F",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/🌱Developing/A2",
+      "tag": "#A2",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/🌱Developing/B2",
+      "tag": "#B2",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/🌱Developing/C2",
+      "tag": "#C2",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/🌱Developing/D2",
+      "tag": "#D2",
+      "pattern": ""
+    },
+    {
+      "folder": "🎈 Child → exploration/🌱Developing/F2",
+      "tag": "#F2",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery/A3",
+      "tag": "#A3",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery/B3",
+      "tag": "#B3",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery/C3",
+      "tag": "#C3",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery/D3",
+      "tag": "#D3",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery/F3",
+      "tag": "#F3",
+      "pattern": ""
+    },
+    {
+      "folder": "🗺️ Young Adult→ structuring/A4",
+      "tag": "#A4",
+      "pattern": ""
+    },
+    {
+      "folder": "🗺️ Young Adult→ structuring/B4",
+      "tag": "#B4",
+      "pattern": ""
+    },
+    {
+      "folder": "🗺️ Young Adult→ structuring/C4",
+      "tag": "#C4",
+      "pattern": ""
+    },
+    {
+      "folder": "🗺️ Young Adult→ structuring/D4",
+      "tag": "#D4",
+      "pattern": ""
+    },
+    {
+      "folder": "🗺️ Young Adult→ structuring/F4",
+      "tag": "#F4",
+      "pattern": ""
+    },
+    {
+      "folder": "💤Adolescent → discovery/🔎 Speculation",
+      "tag": "#speculation",
+      "pattern": ""
+    },
+    {
+      "folder": "🌒 Archive",
+      "tag": "#archive",
+      "pattern": ""
+    },
+    {
+      "folder": "CORE",
+      "tag": "#core",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": ""
+    }
+  ]
+}

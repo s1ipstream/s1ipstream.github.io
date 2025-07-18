@@ -1,0 +1,81 @@
+{
+    "name": "DOS Content Population Main",
+    "nodes": [
+        {
+            "parameters": {
+                "jsCode": "items = [\n    {\n        name: 'merge-separate',\n        tag: 'merge_separate',\n        path: 'concepts/merge-separate.html'\n    },\n    {\n        name: '123-cycle',\n        tag: 'tension_release_distribution',\n        path: 'concepts/123-cycle.html'\n    },\n    {\n        name: 'identity-equation',\n        tag: 'identity_knot',\n        path: 'concepts/identity-equation.html'\n    },\n    {\n        name: 'beyond-pathology',\n        tag: 'neurodivergent_frameworks',\n        path: 'beyond-pathology/index.html'\n    }\n];\n\nreturn items.map(item => ({ json: item }));"
+            },
+            "name": "Set Pages",
+            "type": "n8n-nodes-base.code",
+            "position": [250, 300],
+            "typeVersion": 1
+        },
+        {
+            "parameters": {
+                "filePath": "archive_index.jsonl"
+            },
+            "name": "Read Archive Index",
+            "type": "n8n-nodes-base.readBinaryFile",
+            "position": [450, 300],
+            "typeVersion": 1
+        },
+        {
+            "parameters": {
+                "mode": "runOnceForEachItem",
+                "jsCode": "const page = $input.item.json;\nconst archiveContent = $node['Read Archive Index'].json.data;\n\n// Parse archive data\nconst archiveData = archiveContent.split('\\n')\n    .filter(line => line.trim())\n    .map(line => JSON.parse(line));\n\n// Filter content by tag\nconst content = archiveData.filter(entry => \n    entry.all_tags && entry.all_tags.includes(page.tag)\n);\n\n// Find related concepts\nconst coOccurringTags = new Map();\narchiveData.forEach(entry => {\n    if (entry.all_tags && entry.all_tags.includes(page.tag)) {\n        entry.all_tags.forEach(tag => {\n            if (tag !== page.tag) {\n                coOccurringTags.set(tag, (coOccurringTags.get(tag) || 0) + 1);\n            }\n        });\n    }\n});\n\nconst related = Array.from(coOccurringTags.entries())\n    .sort((a, b) => b[1] - a[1])\n    .slice(0, 5)\n    .map(([tag, count]) => ({ tag, count }));\n\n// Format content\nconst formattedContent = content.map(item => `\n    <section class=\"content-section\">\n        <h3>${item.filename}</h3>\n        <div class=\"summary\">${item.summary}</div>\n        <div class=\"tags\">${item.all_tags.join(', ')}</div>\n        <div class=\"content\">${item.content}</div>\n    </section>\n`).join('\\n');\n\nconst formattedRelated = related.map(concept => `\n    <li class=\"related-concept\">\n        <a href=\"/concepts/${concept.tag}.html\">${concept.tag.replace('_', ' ')}</a>\n        <span class=\"count\">(${concept.count} connections)</span>\n    </li>\n`).join('\\n');\n\nreturn {\n    json: {\n        pageName: page.name,\n        path: page.path,\n        content: formattedContent,\n        relatedConcepts: formattedRelated,\n        contentCount: content.length,\n        relatedCount: related.length\n    }\n};"
+            },
+            "name": "Process Content",
+            "type": "n8n-nodes-base.code",
+            "position": [650, 300],
+            "typeVersion": 1
+        },
+        {
+            "parameters": {
+                "mode": "runOnceForEachItem",
+                "jsCode": "const item = $input.item.json;\n\n// Read existing HTML file\nconst htmlPath = item.path;\nconst response = await $http.get(`file://${process.cwd()}/${htmlPath}`);\nlet html = response.data;\n\n// Replace content placeholders\nhtml = html.replace('<!-- CONTENT -->', item.content);\nhtml = html.replace('<!-- RELATED_CONCEPTS -->', item.relatedConcepts);\n\n// Write updated file\nawait $http.put(`file://${process.cwd()}/${htmlPath}`, html);\n\nreturn item;"
+            },
+            "name": "Update HTML",
+            "type": "n8n-nodes-base.code",
+            "position": [850, 300],
+            "typeVersion": 1
+        }
+    ],
+    "connections": {
+        "Set Pages": {
+            "main": [
+                [
+                    {
+                        "node": "Read Archive Index",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Read Archive Index": {
+            "main": [
+                [
+                    {
+                        "node": "Process Content",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Process Content": {
+            "main": [
+                [
+                    {
+                        "node": "Update HTML",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    }
+} 

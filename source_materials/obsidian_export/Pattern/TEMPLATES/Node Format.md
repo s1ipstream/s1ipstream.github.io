@@ -1,0 +1,5 @@
+- **Core Question:** (The main question being answered)
+- **Key Principles:** (Condensed, essential insights)
+- **Supporting Questions:** (Only if they introduce new angles of exploration)
+- **Pattern Connections:** (Referencing other concepts I’ve explored without repeating unnecessary details)
+- **Practical Applications:** (Only if relevant and actionable)

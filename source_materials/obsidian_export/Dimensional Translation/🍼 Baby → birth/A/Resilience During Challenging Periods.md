@@ -1,0 +1,2 @@
+#child 
+Field [[coherence]] techniques provide practical tools for maintaining stability during disruption. Rather than being overwhelmed by external circumstances, [[coherence]] practices help you maintain internal stability that supports clear thinking and effective action. This translates to measurable stress reduction and improved adaptation during periods of change.

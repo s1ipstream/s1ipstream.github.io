@@ -1,0 +1,2 @@
+#child 
+By approaching tasks with attention to field [[coherence]], you can achieve better results with less effort. Rather than pushing through resistance, this approach helps you identify optimal timing for action. Many professionals report that taking a few minutes to establish internal [[coherence]] before important meetings, presentations, or decisions dramatically improves outcomes. This practice shifts you from fighting circumstances to working with underlying patterns.

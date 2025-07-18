@@ -1,0 +1,1 @@
+consciousness is what it feels like to be a pattern system navigating itself, and materiality is what's required for that navigation to function, then their relationship isn't mysterious—it's mathematically necessary.

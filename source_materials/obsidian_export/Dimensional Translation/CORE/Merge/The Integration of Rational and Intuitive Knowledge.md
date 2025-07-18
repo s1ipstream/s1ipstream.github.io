@@ -1,0 +1,4 @@
+#child 
+Field [[coherence]] theory bridges the artificial divide between rational and intuitive modes of understanding. Rational analysis represents focused attention on specific field patterns, while intuition accesses broader field relationships beyond analytical focus. Neither is superior - they represent different but complementary ways of engaging with field information.
+
+This integration helps explain why the most profound insights often combine analytical rigor with intuitive leaps. These aren't separate processes but different aspects of field [[coherence]] functioning that naturally complement each other when not artificially separated.

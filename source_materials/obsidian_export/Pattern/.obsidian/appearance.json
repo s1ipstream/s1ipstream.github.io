@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "#7b61ff",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "baseFontSize": 16,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "nativeMenus": false
+}

@@ -1,0 +1,2 @@
+- **Great communicators set the context before delivering the message.**
+- Example: A speech is more powerful if the audience first experiences the problem it addresses.

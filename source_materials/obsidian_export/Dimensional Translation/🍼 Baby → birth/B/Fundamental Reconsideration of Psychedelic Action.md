@@ -1,0 +1,6 @@
+#child 
+Traditional explanations of psychedelic effects focus primarily on receptor binding and neurochemical cascades within the individual [[brain]] . While these mechanisms are valid at the material level, they represent only the localized expression of a more fundamental process: temporary alteration of field [[coherence]] patterns.
+
+Within our framework, [[psychedelics]] function as field [[coherence]] modulators. They temporarily alter the selective permeability of [[consciousness]]  [[boundaries]] , allowing increased information exchange between individual and collective fields. This manifests as expanded [[awareness]]  beyond the ordinary constraints of personal [[identity]] .
+
+The characteristic dissolution of ego [[boundaries]]  during psychedelic experiences represents a literal shift in field [[coherence]]—the maintenance of rigid [[boundaries]]  between "self" and "other" requires continuous energetic reinforcement. When these [[boundaries]]  become more permeable, the individual experiences direct perception of field-level connections ordinarily filtered from conscious [[awareness]] .

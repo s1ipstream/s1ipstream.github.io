@@ -1,0 +1,2 @@
+
+Meaningful coincidences might be direct observations of pattern field behavior. Rather than random events, they could be moments when we notice the underlying coherence that's constantly occurring but usually filtered from awareness.

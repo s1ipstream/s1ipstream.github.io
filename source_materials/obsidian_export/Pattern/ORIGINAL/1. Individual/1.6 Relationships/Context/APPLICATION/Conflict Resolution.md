@@ -1,0 +1,5 @@
+- Many conflicts are **context misalignments, not actual disagreements.**
+- Example:
+    - Person A: “You don’t listen to me!” (Emotional context: Feeling unheard.)
+    - Person B: “I do listen. I just disagree.” (Logical context: Factual response.)
+    - **The solution is to align contexts first before resolving the content.**

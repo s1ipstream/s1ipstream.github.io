@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "ecd9421e33942792",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cde4ebb9b366ce5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a16ad4220fbadad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Summaries/Reality as Information Field.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Reality as Information Field"
+            }
+          },
+          {
+            "id": "97f16f0e62b7ed19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Merged - 1-2-3-merged.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Merged - 1-2-3-merged"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d591df0f7bbb1dfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4faac3b17b3b096a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3edf522f0dbdea62",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8df15e4309e7e3a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cfda0140956902dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7ceb567c972ff502",
+    "type": "split",
+    "children": [
+      {
+        "id": "7518eb9878d0f974",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09a11a4411126f91",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Index/Symbol Bank.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Symbol Bank"
+            }
+          },
+          {
+            "id": "a05c09aeb75a646c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bubbles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Bubbles"
+            }
+          },
+          {
+            "id": "45905bdc4ab8796f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e7e63d355f360607",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Merged - 1-2-3-merged.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Merged - 1-2-3-merged"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "97f16f0e62b7ed19",
+  "lastOpenFiles": [
+    "Core Summaries/Reality as Pattern Field.md",
+    "Merged - Field Awareness - Sensing Reality.md",
+    "Merged - 1-2-3-merged.md",
+    "Individual Application/The Electrical Calibration of Childhood Development.md",
+    "Merged - Intergenerational Pattern Amplification.md",
+    "1-2-3-merged.md",
+    "Merged Notes/Merged 20250506.md",
+    "Paradox-merged.md",
+    "Core Summaries/Reality as Information Field.md",
+    "Index-merged.md",
+    "Dump-merged.md",
+    "Developing Understanding-merged.md",
+    "Bites-merged.md",
+    "The Properties of Consciousness.md",
+    "Core Summaries/Reshaping Society Through Sensory Intelligence - The Pattern Field Approach.md",
+    "Core Summaries/The Field of Belonging - Community, Connection, and Resonance.md",
+    "Core Summaries/Dimensional Orientation - Educational Curriculum Outline.md",
+    "Core Summaries/Dimensional Orientation - Tools, Systems & Organizing Principles.md",
+    "Core Summaries/Essay Templates/1 Pattern Continuity Beyond Form.md",
+    "Core Summaries/Essay Templates/5 Consciousness and Matter - The Recursive Relationship.md",
+    "Core Summaries/Essay Templates/6 Applied Pattern Recognition in Daily Life.md",
+    "Core Summaries/Essay Templates/3 The Natural Emergence of Ethics.md",
+    "Paradox/The Essential Stability Paradox 20250505.md",
+    "Paradox/The Pain-Pleasure Paradox 20250505.md",
+    "Paradox/The Consciousness-Matter Paradox 20250505.md",
+    "Index/Symbol Bank.md",
+    "Individual Application/1-2-3",
+    "Core Summaries/Untitled",
+    "Core Summaries",
+    "Merged Notes",
+    "Individual Application",
+    "Dump",
+    "Developing Understanding",
+    "Core Summaries/Essay Templates",
+    "Bites",
+    "Paradox"
+  ]
+}

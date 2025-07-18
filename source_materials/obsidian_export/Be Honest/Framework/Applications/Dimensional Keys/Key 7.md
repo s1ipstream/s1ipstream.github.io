@@ -1,0 +1,1 @@
+Map the usage of "dimensional translation" across concepts like "matter," "consciousness," and "sensory intelligence," showing how it functions as an interface [Reality as a Navigation System 05/26/2025, Glossary of Key Terms].

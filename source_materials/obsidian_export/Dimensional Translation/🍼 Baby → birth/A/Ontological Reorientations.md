@@ -1,0 +1,4 @@
+#child 
+1. **Non-locality as Fundamental** - Causation operates through field [[resonance]] rather than linear transmission, challenging our mechanistic assumptions. Local interventions ripple through entire systems via [[holographic]] encoding.
+2. **Information Primacy** - pattern supersedes substance as the primary ontological reality. Physical manifestations become secondary expressions of more fundamental interference patterns.
+3. **Unified Field [[consciousness]] ** - [[consciousness]]  emerges as a field property rather than a localized phenomenon, resolving the hard problem by recognizing [[awareness]]  as intrinsic to information-[[energy]]  relationships.

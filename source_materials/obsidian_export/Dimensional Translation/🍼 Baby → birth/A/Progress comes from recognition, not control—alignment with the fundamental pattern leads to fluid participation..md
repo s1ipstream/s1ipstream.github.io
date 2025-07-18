@@ -1,0 +1,1 @@
+#child [[alignment]] [[pattern]] [[participation]]

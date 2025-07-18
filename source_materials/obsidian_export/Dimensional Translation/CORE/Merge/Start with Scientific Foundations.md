@@ -1,0 +1,2 @@
+#child 
+"This perspective builds on established scientific principles in [[quantum]]  [[physics]]  and systems [[biology]] . Just as [[electromagnetic field]] s organize physical particles, there's growing evidence that similar field-like organizing principles may apply to [[consciousness]]  and biological systems. Research in areas like [[🎈 Child → exploration/🏷️ Tags/heart]]  rate variability [[coherence]] and bio[[electromagnetic field]] s has demonstrated measurable effects that conventional models struggle to fully explain."

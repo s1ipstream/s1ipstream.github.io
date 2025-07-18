@@ -87,7 +87,20 @@ def process_file(filepath, schema):
         
         # Skip if too short
         if len(content) < 50:
-            return {"file": filepath, "reason": f"content too short ({len(content)} chars)"}
+            return {
+                "filename": str(filepath),
+                "wordcount": len(content.split()),
+                "char_count": len(content),
+                "first_500_chars": content[:500],
+                "last_500_chars": content,
+                "summary": content,
+                "theme_tags": [],
+                "pattern_tags": [],
+                "debug_tags": [],
+                "app_tags": [],
+                "all_tags": [],
+                "content": content
+            }
             
         # Extract metadata
         first_500 = content[:500]
@@ -119,7 +132,8 @@ def process_file(filepath, schema):
             "pattern_tags": pattern_tags,
             "debug_tags": debug_tags,
             "app_tags": app_tags,
-            "all_tags": detected_tags
+            "all_tags": detected_tags,
+            "content": content
         }
         
         return entry
@@ -131,6 +145,8 @@ def process_file(filepath, schema):
 def build_index(root_dir=".", output_file="archive_index.jsonl"):
     """Build the complete file index"""
     
+    print("\nDOS Archive Indexer")
+    print("=" * 50)
     print("🚀 Starting DOS Archive Indexing...")
     print(f"Working directory: {os.getcwd()}")
     
@@ -183,12 +199,12 @@ def build_index(root_dir=".", output_file="archive_index.jsonl"):
             
         entry = process_file(filepath, schema)
         if entry:
-            print(f"Successfully processed: {filepath}")  # Debug
+            print(f"Successfully processed: {filepath}")
             index.append(entry)
             processed += 1
         else:
             skipped_log.append({"file": filepath, "reason": "processing failed"})
-            print(f"Failed to process: {filepath}")  # Debug
+            print(f"Failed to process: {filepath}")
             skipped += 1
             
         if processed % 100 == 0 and processed > 0:
@@ -199,41 +215,22 @@ def build_index(root_dir=".", output_file="archive_index.jsonl"):
         json.dump(skipped_log, f, indent=2)
     print(f"  📝 Skipped files log saved to: skipped_files.json")
     
-    if len(index) == 0:
-        print("❌ No files were successfully processed!")
-        return None
-    
     # Write index
-    print(f"\n💾 Saving index to {output_file}...")
-    with open(output_file, "w") as f:
+    print("\n💾 Saving index to archive_index.jsonl...")
+    with open(output_file, "w", encoding="utf-8") as f:
         for entry in index:
             f.write(json.dumps(entry) + "\n")
     
-    print(f"\n🎉 Index complete!")
-    print(f"  ✓ Successfully processed: {len(index)} files")
+    # Print stats
+    total_tags = sum(len(entry.get("all_tags", [])) for entry in index)
+    avg_tags = total_tags / len(index) if index else 0
+    
+    print("\n🎉 Index complete!")
+    print(f"  ✓ Successfully processed: {processed} files")
     print(f"  ⚠️ Skipped: {skipped} files")
     print(f"  📄 Output saved to: {output_file}")
-    
-    # Quick stats
-    total_tags = sum(len(entry["all_tags"]) for entry in index)
-    total_words = sum(entry["wordcount"] for entry in index)
-    print(f"  🏷️ Total tags detected: {total_tags}")
-    print(f"  📝 Total words indexed: {total_words:,}")
-    
-    return index
+    print(f"  📊 Average tags per file: {avg_tags:.1f}")
 
 if __name__ == "__main__":
-    # Set the root directory where your files are
-    # Change this to the path containing your 7000 files
-    ROOT_DIR = "."  # Current directory - change if your files are elsewhere
-    
-    print("DOS Archive Indexer")
-    print("=" * 50)
-    
+    ROOT_DIR = "source_materials"
     index = build_index(ROOT_DIR)
-    
-    if index:
-        print("\n✅ Indexing completed successfully!")
-        print("You can now run the explorer script to search your files.")
-    else:
-        print("\n❌ Indexing failed. Please check the errors above.")

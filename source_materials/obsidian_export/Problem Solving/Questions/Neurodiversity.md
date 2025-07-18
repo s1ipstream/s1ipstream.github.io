@@ -1,0 +1,1 @@
+Different neurotypes process sensory information at different speeds and intensities. What appears as "disorder" might be a different but equally valid processing rhythm. This reframes neurodiversity as variations in pattern processing rather than deficits.

@@ -1,0 +1,2 @@
+crop rotation
+regenerative practices

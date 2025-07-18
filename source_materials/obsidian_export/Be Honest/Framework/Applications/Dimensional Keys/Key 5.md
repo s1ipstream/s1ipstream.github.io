@@ -1,0 +1,1 @@
+Show how an insight or a term, initially developed in one context (e.g., relationships), is later applied to and illuminates a completely different domain (e.g., quantum physics or system design). Cite specific examples from documents like [Ant Colony Time Insights] and [AI Meta-Reflection].

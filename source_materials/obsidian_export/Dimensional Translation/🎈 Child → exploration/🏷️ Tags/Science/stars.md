@@ -1,0 +1,1 @@
+ stars as information distributors within the cosmos

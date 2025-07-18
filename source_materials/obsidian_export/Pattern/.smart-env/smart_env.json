@@ -1,0 +1,58 @@
+{
+  "is_obsidian_vault": true,
+  "smart_blocks": {
+    "embed_blocks": true,
+    "min_chars": 200
+  },
+  "smart_sources": {
+    "single_file_data_path": ".smart-env/smart_sources.json",
+    "min_chars": 200,
+    "embed_model": {
+      "adapter": "transformers",
+      "transformers": {
+        "legacy_transformers": false,
+        "model_key": "TaylorAI/bge-micro-v2"
+      },
+      "TaylorAI/bge-micro-v2": {}
+    },
+    "expanded_view": false,
+    "smart_change": {
+      "active": true
+    }
+  },
+  "file_exclusions": "Untitled",
+  "folder_exclusions": "smart-chats",
+  "smart_view_filter": {
+    "render_markdown": true,
+    "show_full_path": false,
+    "results_limit": 99999
+  },
+  "smart_notices": {
+    "muted": {
+      "done_import": true,
+      "embedding_complete": true,
+      "unable_to_init_source": true
+    }
+  },
+  "expanded_view": false,
+  "smart_threads": {
+    "chat_model": {
+      "adapter": "anthropic",
+      "openai": {
+        "model_key": "gpt-4o"
+      },
+      "anthropic": {
+        "model_key": "claude-3-7-sonnet-latest",
+        "api_key": "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"
+      }
+    },
+    "embed_model": {
+      "model_key": "None"
+    },
+    "language": "en",
+    "review_context": true,
+    "lookup_limit": 30,
+    "send_tool_output_in_user_message": false
+  },
+  "excluded_headings": ""
+}

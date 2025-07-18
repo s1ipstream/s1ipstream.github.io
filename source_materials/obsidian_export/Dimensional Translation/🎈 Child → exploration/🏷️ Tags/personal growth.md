@@ -1,0 +1,2 @@
+The tendency to seek comfort in familiar [[patterns]], even dysfunctional ones, isn't a character flaw but a natural property of [[coherent]] [[systems]]. 
+Recognizing this shifts our approach from judgment to strategic [[pattern]] disruption combined with intentional [[stabilization]] of beneficial new patterns.

@@ -1,0 +1,217 @@
+Essential Questions Framework for Domain Documentation
+
+When documenting concepts, applications, and systems in your knowledge
+framework, addressing fundamental questions ensures comprehensive
+coverage. This guide outlines a structured approach to documenting the
+5W+H questions (Who, What, When, Where, Why, How) across different
+domains, with additional dimensions specific to your
+holographic-toroidal framework.
+
+Core Questions Matrix
+
+For each concept or application in your wiki, consider addressing these
+essential questions:
+
+Foundational Questions (5W+H)
+
+1.  What - Definition and essence
+
+    - What is this concept/pattern/application?
+
+    - What are its defining characteristics?
+
+    - What domain(s) does it belong to?
+
+2.  Why - Purpose and significance
+
+    - Why does this exist or matter?
+
+    - Why does understanding it contribute to the framework?
+
+    - Why might it be overlooked in conventional approaches?
+
+3.  How - Mechanics and processes
+
+    - How does it function or operate?
+
+    - How does it relate to other concepts?
+
+    - How can it be observed or measured?
+
+4.  Who - Relevance to agents/entities
+
+    - Who experiences or implements this?
+
+    - Who benefits from understanding it?
+
+    - Who has contributed key insights about it?
+
+5.  Where - Context and location
+
+    - Where does this manifest in systems?
+
+    - Where in the cyclic framework does it typically appear?
+
+    - Where are the boundaries of its application?
+
+6.  When - Temporal aspects
+
+    - When does this occur in developmental cycles?
+
+    - When is it most observable or significant?
+
+    - When does it transition to other states or forms?
+
+Framework-Specific Questions
+
+7.  Scale - Dimensional expression
+
+    - How does this manifest at micro (individual) scale?
+
+    - How does this manifest at meso (group/community) scale?
+
+    - How does this manifest at macro (societal/global) scale?
+
+8.  Heat Dynamics - Contraction/expansion state
+
+    - Where does this fall on the contraction-expansion spectrum?
+
+    - What heat characteristics does it exhibit
+      (high/transitional/diffuse/minimal)?
+
+    - How does its position shift during different phases?
+
+9.  Coherence - Pattern integrity
+
+    - What level of field coherence does this represent?
+
+    - How does it contribute to system alignment?
+
+    - What disrupts or enhances its coherence?
+
+10. Cyclical Position - Framework placement
+
+    - Where in the 9-stage macro cycle does this appear?
+
+    - Which of the 7 micro phases does it embody?
+
+    - What stabilizing forces (recalibration, harmonic stabilization,
+      threshold recognition) apply?
+
+Implementation Guide
+
+When documenting domains in your wiki, incorporate these questions
+through:
+
+Template Structure
+
+Create a section in your templates specifically for essential questions:
+
+## Essential Questions
+
+### Core Understanding
+
+- **What**: [Definition and characteristics]
+
+- **Why**: [Purpose and significance]
+
+- **How**: [Function and mechanics]
+
+### Contextual Dimensions
+
+- **Who**: [Relevant entities/agents]
+
+- **Where**: [System location and boundaries]
+
+- **When**: [Temporal aspects and triggers]
+
+### Framework Dimensions
+
+- **Scale Expression**: [Micro/Meso/Macro manifestations]
+
+- **Heat Dynamic**: [Contraction/Expansion state]
+
+- **Coherence Properties**: [Pattern integrity factors]
+
+- **Cycle Position**: [Position in nested cycles]
+
+Application-Specific Extensions
+
+For application domains, add these practical extensions:
+
+1.  How Measurable - Quantification methods
+
+    - How can we measure its presence or impact?
+
+    - What metrics indicate its effectiveness?
+
+    - How do we know when it's functioning optimally?
+
+2.  How Implementable - Practical steps
+
+    - How can this be deliberately implemented?
+
+    - What conditions must be present for success?
+
+    - How does implementation differ across scales?
+
+3.  When Applicable - Appropriate use contexts
+
+    - When should this be applied vs. alternatives?
+
+    - When might application be counterproductive?
+
+    - When are the optimal conditions for implementation?
+
+Question Domain Cross-Reference
+
+This table shows which questions are most crucial for different
+knowledge domains:
+
+  -----------------------------------------------------------------------------
+  Question Type  Concepts    Patterns    Applications   Systems     Processes
+  -------------- ----------- ----------- -------------- ----------- -----------
+  What           Primary     Primary     Primary        Primary     Primary
+
+  Why            Primary     Secondary   Primary        Primary     Primary
+
+  How            Secondary   Primary     Primary        Primary     Primary
+
+  Who            Tertiary    Tertiary    Primary        Secondary   Secondary
+
+  Where          Secondary   Secondary   Primary        Primary     Secondary
+
+  When           Secondary   Primary     Primary        Secondary   Primary
+
+  Scale          Primary     Primary     Primary        Primary     Secondary
+
+  Heat Dynamic   Primary     Primary     Secondary      Primary     Primary
+
+  Coherence      Primary     Primary     Secondary      Primary     Secondary
+
+  Cycle Position Secondary   Primary     Secondary      Primary     Primary
+  -----------------------------------------------------------------------------
+
+By systematically addressing these questions across your knowledge
+domains, you ensure comprehensive documentation that maintains
+consistency with your holographic-toroidal framework while providing
+practical understanding for implementation and application.
+
+When implementing the 5W+H framework plus additional dimensional
+questions:
+
+1. Ensure each question category directly connects to framework
+dimensions
+
+2. Explicitly link heat dynamics classification to "How" questions
+
+3. Connect cyclical position to "When" questions
+
+4. Relate scale manifestations to "Where" questions
+
+5. Document how each answer reveals different aspects of the concept's
+coherence properties
+
+The essential questions should not be treated as separate sections but
+as an integrated analytical framework that reveals different dimensions
+of each concept.

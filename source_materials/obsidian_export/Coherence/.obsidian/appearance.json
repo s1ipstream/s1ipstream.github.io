@@ -1,0 +1,11 @@
+{
+  "textFontFamily": "Inter",
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": 13,
+  "baseFontSizeAction": true,
+  "cssTheme": "Minimal",
+  "accentColor": "#7b29e0",
+  "enabledCssSnippets": [
+    "toroidal-framework"
+  ]
+}

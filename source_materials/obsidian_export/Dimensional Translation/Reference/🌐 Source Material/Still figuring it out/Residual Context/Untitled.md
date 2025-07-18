@@ -1,0 +1,1 @@
+The universe is "a flowing fabric sea of knots loosening and tightening" under the law of distribution

@@ -1,0 +1,1 @@
+Understanding is participation—navigation, not control

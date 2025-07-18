@@ -1,0 +1,1 @@
+Generate a list of recurring conceptual clusters (e.g., tension, flow, coherence, boundary) and demonstrate their manifestation with direct quotes across diverse sections like [Ant Colony Time Insights], [Problem Solving Merged.txt], and [Testing Scope].

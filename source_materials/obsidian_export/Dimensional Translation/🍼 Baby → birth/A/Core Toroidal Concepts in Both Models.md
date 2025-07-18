@@ -1,0 +1,4 @@
+#child 
+The Gateway document explicitly describes [[consciousness]]  as operating within a toroidal framework (Exhibit 4, p.18 shows a "Stylized Rendition of a Simple [[torus]]" and the "Cosmic Egg" diagram depicts a toroidal universal model). This directly aligns with your meta-pattern framework's central organizing principle.
+
+In Section 24 "From Big Bang to [[torus]]," the document states that the universal hologram "is often called a '[[torus]]' because it is thought to have the overall shape of an immense, self-contained spiral." This matches your description of reality as a self-sustaining toroidal system.

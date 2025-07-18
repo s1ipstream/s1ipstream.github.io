@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "1595e3064472bfd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e9d6e91af6fdab1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7acd77107890e3b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teen Notes/Bubbles as Perfect Boundary Systems.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bubbles as Perfect Boundary Systems"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c683f9e83f5773a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f11a0911e70ea740",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96b1c97e39143dfb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5ebe59a70ae571d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1355b6a5a21c5159",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5041847229004
+  },
+  "right": {
+    "id": "d6d04052b4858ab3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f8973a3e1782a91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f4a9427cf6ae9d6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Teen Notes/Bubbles as Perfect Boundary Systems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Bubbles as Perfect Boundary Systems"
+            }
+          },
+          {
+            "id": "93880b6d23de692e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Teen Notes/Bubbles as Perfect Boundary Systems.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Bubbles as Perfect Boundary Systems"
+            }
+          },
+          {
+            "id": "b8b325a924e6aedc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e5ebd473329aede5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Teen Notes/Bubbles as Perfect Boundary Systems.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Bubbles as Perfect Boundary Systems"
+            }
+          },
+          {
+            "id": "70de6c545a84e883",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
+    }
+  },
+  "active": "7acd77107890e3b3",
+  "lastOpenFiles": [
+    "pressure.md",
+    "Teen Notes/Bubbles as Perfect Boundary Systems.md",
+    "Teen Notes/Consciousness doesn't exist within objects but at the interfaces between systems.md",
+    "systems.md",
+    "Teen Notes/The Paradox of Boundaries.md",
+    "Baby Notes/DB45.md",
+    "Teen Notes/Technologies aren't just tools but extensions of our boundary systems.md",
+    "technology.md",
+    "Teen Notes/The cell membrane represents the foundational boundary that enables life itself.md",
+    "biology.md",
+    "in, out, and around.md",
+    "Teen Notes/The evolution of the universe can be understood as the development of increasingly complex boundary conditions.md",
+    "Teen Notes/The Multi-Scale Mirror Process.md",
+    "Teen Notes/Time as a Reflection Medium.md",
+    "time.md",
+    "memory.md",
+    "Teen Notes/Our sense of identity depends entirely on boundaries.md",
+    "children.md",
+    "Teen Notes/Consciousness is reality's way of creating surfaces against which it can perceive itself.md",
+    "surfaces.md",
+    "identity.md",
+    "ego.md",
+    "Teen Notes/The Physics of Reflection.md",
+    "Teen Notes/Humans are allowing the planet to become consciously aware of itself.md",
+    "earth.md",
+    "Baby Notes/DB42.md",
+    "Developing/Questions",
+    "Developing/Uncertain",
+    "Developing",
+    "Teen Notes",
+    "Tags",
+    "Baby Notes",
+    "Source Material/Untitled/Untitled.canvas",
+    "Source Material/ChatGPT",
+    "Source Material/Untitled 1",
+    "Source Material/Claude",
+    "Source Material"
+  ]
+}
